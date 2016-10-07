@@ -1,0 +1,29 @@
+h1{
+	
+}
+p{
+	font-family: Georgia, sans-serif;
+	font-weight: bolder;
+}
+
+p.a{
+	font-family: "Slabo 27px", Georgia, sans-serif;
+	font-size: 20px;
+	font-weight: none;
+	line-height: 30px;
+	
+}
+.b{
+	font-family: "David Libre", 'Arial', Georgia, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 80px;
+	
+}
+.c{
+	font-family: "Yatra One", 'Arial', Georgia, sans-serif;
+	font-size: 10px;
+	font-weight: none;
+	line-height: 60px;
+	
+}

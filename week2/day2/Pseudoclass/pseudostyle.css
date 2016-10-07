@@ -1,0 +1,8 @@
+button:active{
+	color: red;
+}
+button:focus{
+	color: blue;
+}
+button:hover{
+	color: green;

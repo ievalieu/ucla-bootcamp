@@ -1,0 +1,286 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"se",
+				"sans-serif"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-orientation"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"te",
+				"textarea	Tag"
+			],
+			[
+				"textd",
+				"text-decoration-color"
+			],
+			[
+				"bagro",
+				"background-color"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"th",
+				"th	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "package control install",
+		"selected_items":
+		[
+			[
+				"package control install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Miss Eva/Desktop/GitHub/Basic-Portfolio/assets/css/style.css",
+		"/C/Users/Miss Eva/Desktop/GitHub/Basic-Portfolio/portfolio.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/Basic-Portfolio/contact.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/Basic-Portfolio/index.html",
+		"/C/Users/Miss Eva/Downloads/recommended-homework-solution/recommended-homework-solution/portfolio.html",
+		"/C/Users/Miss Eva/Downloads/recommended-homework-solution/recommended-homework-solution/contact.html",
+		"/C/Users/Miss Eva/Downloads/recommended-homework-solution/recommended-homework-solution/assets/css/style.css",
+		"/C/Users/Miss Eva/Downloads/recommended-homework-solution/recommended-homework-solution/index.html",
+		"/C/Users/Miss Eva/Desktop/Class Work/Typography/typo.html",
+		"/C/Users/Miss Eva/Desktop/Class Work/Typography/style.css",
+		"/C/Users/Miss Eva/Desktop/Class Work/pseudostyle.css",
+		"/C/Users/Miss Eva/Desktop/Class Work/pseudoclass.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/Basic-Portfolio/assets/css/reset.css",
+		"/C/Users/Miss Eva/Desktop/GitHub/Basic-Portfolio/index.php",
+		"/C/Users/Miss Eva/Desktop/GitHub/Basic-Portfolio/composer.json",
+		"/C/Users/Miss Eva/Desktop/Class Work/6-CSS_Positioned_Activity/positioning.css",
+		"/C/Users/Miss Eva/Desktop/Class Work/Unsolved/floats.css",
+		"/C/Users/Miss Eva/Desktop/Class Work/Unsolved/floats.html",
+		"/C/Users/Miss Eva/Desktop/Class Work/positioning.css",
+		"/C/Users/Miss Eva/Documents/Unsolved/floats.css",
+		"/C/Users/Miss Eva/Desktop/GitHub/HerokuforEva/index.php",
+		"/C/Users/Miss Eva/Desktop/GitHub/HerokuforEva/composer.json",
+		"/C/Users/Miss Eva/Documents/GitHub/Basic-Portfolio/assets/css/style.css",
+		"/C/Users/Miss Eva/Google Drive/AboutMe.html",
+		"/C/Users/Miss Eva/Documents/positioning.html",
+		"/C/Users/Miss Eva/Documents/positioning.css",
+		"/C/Users/Miss Eva/Documents/6-CSS_Positioned_Activity/positioning.css",
+		"/C/Users/Miss Eva/Documents/6-CSS_Positioned_Activity/positioning.html",
+		"/C/Users/Miss Eva/Documents/GitHub/Basic-Portfolio/index.html",
+		"/C/Users/Miss Eva/Documents/Unsolved/floats.html",
+		"/C/Users/Miss Eva/Documents/RelativePaths_UNSOLVED-Student/RelativePaths_4/style.css",
+		"/C/Users/Miss Eva/Documents/RelativePaths_UNSOLVED-Student/RelativePaths_4/HTML/HTML_BIO.html",
+		"/C/Users/Miss Eva/Documents/RelativePaths_UNSOLVED-Student/RelativePaths_WorkingExample/assets/style.css",
+		"/C/Users/Miss Eva/Documents/RelativePaths_UNSOLVED-Student/RelativePaths_3/assets/style/style.css",
+		"/C/Users/Miss Eva/Documents/RelativePaths_UNSOLVED-Student/RelativePaths_3/HTML_BIO.html",
+		"/C/Users/Miss Eva/Documents/RelativePaths_UNSOLVED-Student/RelativePaths_2/assets/style.css",
+		"/C/Users/Miss Eva/Documents/RelativePaths_UNSOLVED-Student/RelativePaths_2/HTML_BIO.html",
+		"/C/Users/Miss Eva/Documents/RelativePaths_UNSOLVED-Student/RelativePaths_1/style.css",
+		"/C/Users/Miss Eva/Documents/RelativePaths_UNSOLVED-Student/RelativePaths_1/HTML_BIO.html",
+		"/C/Users/Miss Eva/Documents/GitHub/Basic-Portfolio/portfolio.html",
+		"/C/Users/Miss Eva/Documents/GitHub/Basic-Portfolio/contact.html",
+		"/C/Users/Miss Eva/Documents/GitHub/Basic-Portfolio/assets/css/reset.css",
+		"/C/Users/Miss Eva/Documents/GitHub/JustforPractice/css/style.css",
+		"/C/Users/Miss Eva/Documents/GitHub/JustforPractice/student-bio.html",
+		"/C/Users/Miss Eva/Documents/GitHub/JustforPractice/style.css",
+		"/C/Users/Miss Eva/Documents/GitHub/JustforPractice/student-bio.html.html",
+		"/C/Users/Miss Eva/Google Drive/PREWORK_ELL/Module-9/style.css",
+		"/C/Users/Miss Eva/Documents/GitHub/JustforPractice/index.html",
+		"/C/Users/Miss Eva/Desktop/Class Work/newfile.html",
+		"/C/Users/Miss Eva/README.md",
+		"/C/Users/Miss Eva/Documents/GitHub/sept_22-learnGit/README.md",
+		"/C/Users/Miss Eva/Desktop/Home Work/HW 1.html",
+		"/C/Users/Miss Eva/AppData/Roaming/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/C/Users/Miss Eva/Desktop/newfile.html",
+		"/C/Users/Miss Eva/Desktop/Assignment #8/index.html",
+		"/C/Users/Miss Eva/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Miss Eva/Desktop/Coding Bootcamp 2016/Broken_and_Working_Code/WorkingCode/style.css",
+		"/C/Users/Miss Eva/Desktop/index.html",
+		"/C/Users/Miss Eva/Desktop/style.css",
+		"/C/Users/Miss Eva/Desktop/Coding Bootcamp 2016/Broken_and_Working_Code/WorkingCode/GrumpyCat.html",
+		"/C/Users/Miss Eva/Desktop/My_First_Website.html",
+		"/C/Users/Miss Eva/Desktop/fanpage.html",
+		"/C/Users/Miss Eva/Desktop/Coding Bootcamp 2016/Broken_and_Working_Code/BrokenCode/style.css",
+		"/C/Users/Miss Eva/Desktop/Coding Bootcamp 2016/Broken_and_Working_Code/BrokenCode/logic.js",
+		"/C/Users/Miss Eva/Desktop/Coding Bootcamp 2016/Broken_and_Working_Code/BrokenCode/BooTheDog.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"15px",
+			"browser",
+			"<td>",
+			"</td>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "bootstrap.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 141.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
