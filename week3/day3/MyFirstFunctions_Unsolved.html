@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My First Function</title>
+</head>
+<body>
+	
+	<script>
+
+		// FUNCTIONS
+		// ================================================================================
+
+		// Creates Function called "adder" with three arguments (x, y, z) that get passed into it and console.log the result
+			function adder (x, y, z){
+				console.log(x + y + z);
+			}
+
+
+
+		// Creates a Function called "multiplier" with three arguments (x, y, z) that get passed into it and console.log the result
+			function multiplier (x, y, z){
+				console.log(x*y*z);
+			}
+
+
+
+		// Creates a function called "isString" with three arguments (x, y, z) that get passed into it and console.log whether all three are a string or not
+			function isString (x, y, z){
+				if (typeof x === "string" && typeof y --- "string" && typeof z ==="string"){
+					console.log("Yes, these are all strings.");
+				}else{
+					console.log("No, these are not all strings.")
+				}	
+			}
+
+
+
+
+		// Creates a function called "vowelChecker" that takes in a single argument (x) and console.log's whether the value is a vowel or not
+			function vowelChecker (x){
+				for(i = 0; i < x.length; i++){
+					if(x.charAt(i) === "a" || x.charAt(i) === "e" || x.charAt(i) === "i" || x.charAt(i) === "o" || x.charAt(i) === "u"){
+						console.log(x.charAt(i) + " = a vowel");
+					}else{
+						console.log(x.charAt(i) + " = not a vowel!");
+					}
+				}
+			}
+
+
+
+		// FUNCTION EXECUTION
+		// ================================================================================
+
+		// Add in the lines of code below necessary to "call" the functions you created above.
+		
+		
+		// Call the adder function here
+		var num1 = 1;
+		var num2 = 2;
+		var num3 = 3;
+
+		adder(num1, num2, num3);
+
+
+		
+		console.log("-------------------")
+
+		
+		// Call the multiplier function here. 
+		var num1 = 1;
+		var num2 = 2;
+		var num3 = 3;
+
+		multiplier(num1, num2, num3);
+		
+		console.log("-------------------")
+
+
+		// Call the isString function here.
+		var word = "cat";
+		var name = "eva";
+
+		isString(num1, word, name);
+
+		console.log("-------------------")
+		// Call the vowelChecker function here.
+		var letters = "This is my cat, her name is Wally."
+		vowelChecker(letters);
+
+	</script>
+
+</body>
+</html>

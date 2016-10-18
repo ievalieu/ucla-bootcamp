@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors Part 1</title>
+</head>
+<body>
+
+<div id="game">
+
+</div>
+
+<script type="text/javascript">
+
+// Create an array that lists out all of the options
+var options = ['r','p','s'];
+
+
+	// Determines which exact key was selected. Make it lowercase
+	var wins = 0;
+	var losses = 0;
+	var ties = 0;
+	
+	for(var rounds = 1; rounds < 6; rounds++){
+		document.onkeyup = function(event) {
+			var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
+			console.log(userGuess);
+			// Create code to randomly choose one of the three options (Computer) 
+			var computerGuess = options[Math.floor(Math.random()*options.length)];
+
+			// Alerts with user guess
+			alert("Your guess is: " + userGuess);
+
+			// Alerts with Computer guess
+			alert("Computer's guess is: " + computerGuess);
+		}
+		for(var i = 0; i < options.length; i++){
+			if(userGuess === options[i]){
+				console.log("Tie!");
+				ties++;
+			}else if(userGuess === "p" && computerGuess === options[i]){
+				console.log("User Wins!"); //0
+				wins++;
+			}else if(userGuess === "s" && computerGuess === options[i]){
+				console.log("User Wins!"); //1
+				wins++;
+			}else if(userGuess === "r" && computerGuess === options[i]){
+				console.log("User Wins!"); //2
+				wins++;
+			}else{
+				console.log("Computer Wins!")
+				losses++;
+			}
+		}
+	}
+	
+//log rounds or stop at certain wins/losses;
+//
+
+
+
+
+
+
+
+
+
+// Captures Key Clicks
+
+</script>
+</body>
+</html>

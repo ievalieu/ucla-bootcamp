@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock, Paper, Scissors</title>
+</head>
+<body>
+	<h1>Rock, Paper, Scissors</h1>
+
+<!--
+1. 
+-->
+<script type="text/javascript">
+	//variables
+	var wins = 0;
+	var losses = 0;
+	var ties = 0;
+	var computerChoices = ["r", "p", "s"];
+
+	//Captures Key Clicks on keyboard by user
+	document.onkeyup = function(event){
+		//Determines which exact key was selected
+		//Makes that key lowercase
+		var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
+		//Alerts with user guess
+		console.log(userGuess);
+		alert("User's Guess is: " + userGuess);
+		//Creates code to randomly choose one of the three options in the array for the COMPUTER
+		//Math.floor -> object function that calls Math.random(), another object function which then multiplies by the length of computerChoices[], an array(?).
+		var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+		//Alerts with computer guess
+		console.log(computerGuess);
+		alert("Computer's Guess is: " + computerGuess);
+	}
+
+	//Logic of RPS game aka rules
+	if(userGuess === "r"|| userGuess === "p" || userGuess === "s"){
+		for(i=0; i <computerChoices.length; i++){
+			if((userGuess === computerGuess)){
+				alert("You tied!");
+				ties++;
+			}else if(userGuess === "p" && computerGuess[i]){
+				wins++;
+			}//com = rock
+			else if(userGuess === "s" && computerGuess[i]){
+				wins++;
+			}//com = paper
+			else if(userGuess === "r" && computerGuess[i]){
+				wins++;
+			}//com = scissors
+			else{
+				losses++;
+			}
+		}	
+	}else{
+		alert("Please choose from the following choices of: r, p, and s");
+	}
+
+	document.write("<p>Wins: " + wins);
+	document.write("Losses: " + losses);
+	document.write("Ties: " + ties);
+</script>
+
+</body>
+</html>

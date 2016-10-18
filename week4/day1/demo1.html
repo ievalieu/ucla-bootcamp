@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.3.js">
+	</script>
+</head>
+<body>
+	
+<script type = "text/javascript">
+
+$("#emptyDiv").html("<h1>Hello Matt</h1>");
+
+var newDiv = $("<div>");
+newDiv.html("Olivia says hello");
+$("#emptyDiv").append(newDiv);
+
+//attr takes two parameters
+newDiv.attr("class", "fancy");
+</script>
+</body>
+</html>
