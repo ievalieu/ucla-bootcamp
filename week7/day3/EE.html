@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employee Tracker</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<style>
+		.jumbotron{
+			background: #337ab7;
+			color: white;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+<div class="jumbotron">
+	<div class="container">
+	  <h1>Employee Data Management</h1>
+	  <p>A Comprehensive Directory of Employee Billable Hours</p>
+	</div>
+</div>
+<div class="container">
+	<div class="panel panel-primary">
+	  <!-- Default panel contents -->
+	  <div class="panel-heading">Current Employees</div>
+	  <!-- Table -->
+	  <table class="table">
+		<thead>
+		    <tr>
+		    	<th id="eeCol" class="col-sm-2">Employee Name</th>
+		    	<th id="roleCol" class="col-sm-2">Role</th>
+		    	<th id="stdateCol" class="col-sm-2">Start Date</th>
+		    	<th id="monWorkedCol" class="col-sm-2">Months Worked</th>
+		    	<th id="monRateCol" class="col-sm-2">Monthly Rate ($)</th>
+		    	<th id="totBillCol" class="col-sm-2">Total Billed ($)</th>
+		    </tr>
+	    </thead>
+	    <tbody>
+	    	<!-- insert appended rows-->
+	    </tbody>
+	  </table>
+	</div>
+	
+	<div class="panel panel-primary">
+		<div class="panel-heading">Add Employee</div>
+		<div class="panel-body">
+			<form role="form">
+				<div class="form-group">
+					<label for="text">Employee Name</label>
+					<input type="text" class="form-control" id="ee-input">
+				</div>
+				<div class="form-group">
+					<label for="text">Role</label>
+					<input type="text" class="form-control" id="role-input">
+				</div>
+				<div class="form-group">
+					<label for="text">Start Date (MM/DD/YY - ie: 01/01/94)</label>
+					<input type="date" class="form-control" id="stdate-input">
+				</div>
+				<div class="form-group">
+					<label for="text">Monthly Rate</label>
+					<input type="number" class="form-control" id="monrate-input">
+				</div>
+				<button type="submit" class="btn" id="addEE">Submit</button>
+			</form>
+		</div>
+	</div>
+
+</div>
+<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+<script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
+<script src="moment.js"></script>
+<script>
+
+function monthWorked(startDate) {
+	return moment().diff(startDate, "months")
+}
+
+ // Initialize Firebase
+var config = {
+	apiKey: "AIzaSyAOkQTvd4rh7eM1YQWGMdTvOF2iwBELflU",
+	authDomain: "testproject1-882fe.firebaseapp.com",
+	databaseURL: "https://testproject1-882fe.firebaseio.com",
+	storageBucket: "testproject1-882fe.appspot.com",
+	messagingSenderId: "527597865615"
+};
+
+firebase.initializeApp(config);
+
+var database = firebase.database();
+//Initial Vars
+var employee;
+var role;
+var startDate;
+var monthlyRate;
+
+//---------------------------------------------------------
+$("#addEE").on("click", function(){
+	//store input values into variables
+	employee = $("#ee-input").val().trim();
+	role = $("#role-input").val().trim();
+	startDate = $("#stdate-input").val().trim();
+	monthlyRate = $("#monrate-input").val().trim();
+
+	database.ref().push({
+		employee: employee,
+		role: role,
+		startDate: startDate,
+		monthlyRate: monthlyRate,
+		dateAdded: firebase.database.ServerValue.TIMESTAMP
+	});
+	console.log("New Employee: ");
+	console.log(employee);
+	console.log(role);
+	console.log(startDate);
+	console.log(monthlyRate);
+	// Return False to allow "enter"
+	return false;
+});
+//firebase watcher + initial loader: change "value" to "child_added"
+//snapshot gathers all of data
+//childSnapshot is just the one part that is referred to
+database.ref().on("child_added", function(childSnapshot){
+	console.log(childSnapshot.val());
+	var childEmployee = childSnapshot.val().employee;
+	var childRole = childSnapshot.val().role;
+	var childStartDate = childSnapshot.val().startDate;
+	var childMonthlyRate = childSnapshot.val().monthlyRate;
+
+/*	console.log(childEmployee);
+	console.log("derp = " + childStartDate);*/
+
+	var newRow= $("<tr>");
+	var eeTD = $('<td class="col-sm-2">');
+	var roleTD = $('<td class="col-sm-2">');
+	var startTD = $('<td class="col-sm-2">');
+	var workedTD = $('<td class="col-sm-2">');
+	var rateTD = $('<td class="col-sm-2">');
+	var totalTD = $('<td class="col-sm-2">');
+
+
+
+//<td class="col-sm-2"></td>
+
+	eeTD.append(childEmployee);
+	console.log(eeTD);
+	roleTD.append(childRole);
+	startTD.append(childStartDate);
+	workedTD.append(monthWorked(childStartDate));
+	rateTD.append(childMonthlyRate);
+	totalTD.append(monthWorked(childStartDate) * childMonthlyRate); 
+
+	newRow.append(eeTD);
+	newRow.append(roleTD);
+	newRow.append(startTD);
+	newRow.append(workedTD);
+	newRow.append(rateTD);
+	newRow.append(totalTD);
+	
+	$("tbody").append(newRow);
+
+}, function (errorObject) {
+  	console.log("The read failed: " + errorObject.code);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

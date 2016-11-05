@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>NYT Search App</title>
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+
+	<body>
+	    <div class="jumbotron" id="title">
+	        <h1>New York Times Search</h1>
+	    </div>
+	  
+	    <div class="panel panel-default">
+	  
+	  	<div class="panel-heading">
+	    	<h3 class="panel-title">Search Parameters</h3>
+	  	</div>
+	     
+	    <div class="panel-body">
+	        <label for="pwd">Search Terms:</label>
+	        <input type="text" class="form-control" name="search">
+	        
+	        <div class="form-group">
+	           <label for="pwd">Number of Records to Retrieve:</label>
+	           <select class="form-control" id="numRecordsSelect">
+	                <option value="1">1</option>
+	                <option value="5" selected="">5</option>
+	                <option value="10">10</option>
+	           </select>
+	           
+	           <label for="pwd">Start Year (Optional):</label>
+	           <input type="text" class="form-control search">
+	           <label for="pwd">EndYear (Optional):</label>
+	           <input type="text" class="form-control">
+	       	</div>
+			<div class="btn-group" role="group" aria-label="...">
+	  			<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-zoom-out"></span>Search</button>
+	  			<button type="button" class="btn btn-default"> <span class="glyphicon glyphicon-trash"></span>Clear Results</button>
+			</div>  
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+	    		<h3 class="panel-title">Top Articles</h3>
+	  		</div>
+	  		<div class="panel-body">
+	    	Panel content
+	  		</div>
+		</div>
+
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+	<script>
+	//User Input
+	var searchTerm = "";
+	var numOfArt;
+	var startYear;
+	var endYear; 
+	//Endpoint
+	var key = "9cde84bfb7ee4b4db658fc17d61ecf38";
+	var queryURL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?q="+searchTerm+"&"+numOfArt+"&?begin_date="+startYear + "&?end_date=" + endYear + "&?sort=newest&api-key="+key;
+
+	//Script
+
+	function name(){
+		//
+		searchTerm = $(".search").data("name");
+		numOfArt = $(this).data("");
+		startYear = $(this).data("");
+		endYear = $(this).data("");
+	}
+
+	$("button").on("click", name);
+
+	$.ajax({
+		url: queryURL,
+		method: "GET"
+	})
+	.done(function(response){
+
+		console.log(response);
+		for(var i = 0; i < response.length; i++){
+
+			var title = response.docs[i].headline.main; 
+			var author = response.docs[i].byline.original;
+			var section = response.docs[i].multimedia.section_name;
+			var artDate = response.docs[i].multimedia.pub_date;
+			var artlink = response.docs[i].multimedia.web_url;
+
+			var row = $("<div class = 'item'>");
+			var heading = $("<h3>").text(title);
+			var pAuthor = $("<p>").text(author);
+			var pSection = $("<p>").text("Section: " + section);
+			var pArtDate = $("<p>").text(artDate);
+			var pArtLink = $("<p>").text(artLink);
+
+			row.append(heading);
+			row.append(pAuthor);
+			row.append(pSection);
+			row.append(pArtDate);
+			row.append(pArtLink);
+
+			$(PLACEHOLDER).prepend(row);
+		}
+	});
+	</script>
+	</body>
+</html>
+

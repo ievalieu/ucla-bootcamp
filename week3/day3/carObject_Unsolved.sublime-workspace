@@ -4,8 +4,264 @@
 		"selected_items":
 		[
 			[
+				"ini",
+				"initial"
+			],
+			[
+				"bidd",
+				"bidderName"
+			],
+			[
+				"highBidder",
+				"highBidder"
+			],
+			[
+				"intialBid",
+				"initialBidder"
+			],
+			[
+				"age",
+				"age"
+			],
+			[
 				"name",
 				"name"
+			],
+			[
+				"email",
+				"email"
+			],
+			[
+				"rece",
+				"recentUser"
+			],
+			[
+				"ag",
+				"ageinput"
+			],
+			[
+				"click",
+				"clickValue"
+			],
+			[
+				"nam",
+				"namedisplay"
+			],
+			[
+				"com",
+				"commentdisplay"
+			],
+			[
+				"comm",
+				"commentinput"
+			],
+			[
+				"animal",
+				"animalName"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"movie",
+				"movieName"
+			],
+			[
+				"mo",
+				"movieInput"
+			],
+			[
+				"question",
+				"questionNum"
+			],
+			[
+				"show",
+				"showQuestion"
+			],
+			[
+				"num",
+				"numIncorrect"
+			],
+			[
+				"reset",
+				"resetTimer"
+			],
+			[
+				"check",
+				"checkUserChoice"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"Covere",
+				"CoveredByYourGrace"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"Cov",
+				"CoveredByYourGrace"
+			],
+			[
+				"C",
+				"Cinzel"
+			],
+			[
+				"query",
+				"queryEndpoint"
+			],
+			[
+				"coun",
+				"countDown"
+			],
+			[
+				"questions",
+				"questions"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"start",
+				"startGameBtn"
+			],
+			[
+				"button",
+				"button"
+			],
+			[
+				"rese",
+				"resetBtn"
+			],
+			[
+				"un",
+				"numUnanswered"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"mov",
+				"mov"
+			],
+			[
+				"five",
+				"fiveRemainder"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"random",
+				"randomNumber"
+			],
+			[
+				"rand",
+				"randomNumber"
+			],
+			[
+				"your",
+				"yourEnemy"
+			],
+			[
+				"you",
+				"yourBaseAtk"
+			],
+			[
+				"atk",
+				"atkDmg"
+			],
+			[
+				"kylo",
+				"kyloRen"
+			],
+			[
+				"kyl",
+				"kyloRen"
+			],
+			[
+				"darth",
+				"darthVader"
+			],
+			[
+				"current",
+				"currentEnemyHP"
+			],
+			[
+				"choose",
+				"choosePlayer"
+			],
+			[
+				"cur",
+				"currentEnemyHP"
+			],
+			[
+				"curren",
+				"currentEnemyHP"
+			],
+			[
+				"curr",
+				"currentEnemy"
+			],
+			[
+				"currentEn",
+				"currentEnemyChosen"
+			],
+			[
+				"de",
+				"defender-section"
+			],
+			[
+				"app",
+				"appendTo"
+			],
+			[
+				"player",
+				"playerChose"
+			],
+			[
+				"cE",
+				"cEnemyCounterAtk"
+			],
+			[
+				"chara",
+				"characters"
+			],
+			[
+				"en",
+				"enemy-section"
+			],
+			[
+				"e",
+				"enemy-section"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"bac",
+				"background"
 			],
 			[
 				"margin-",
@@ -16,20 +272,8 @@
 				"Bungee_Inline"
 			],
 			[
-				"background",
-				"background-repeat"
-			],
-			[
-				"back",
-				"background-size"
-			],
-			[
 				"fon",
 				"font-weight"
-			],
-			[
-				"font-",
-				"font-size"
 			],
 			[
 				"lett",
@@ -68,10 +312,6 @@
 				"arrayOfLettersGuessed"
 			],
 			[
-				"num",
-				"num"
-			],
-			[
 				"p",
 				"pbj"
 			],
@@ -98,14 +338,6 @@
 			[
 				"Fred",
 				"Fredericka_the_Great"
-			],
-			[
-				"i",
-				"img"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"padd",
@@ -152,10 +384,6 @@
 				"losses"
 			],
 			[
-				"padding",
-				"padding-left"
-			],
-			[
 				"max-",
 				"max-width"
 			],
@@ -166,10 +394,6 @@
 			[
 				"se",
 				"sans-serif"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"te",
@@ -192,54 +416,38 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day3/this-unsolved.html",
+			"file": "/C/Users/Miss Eva/Desktop/GitHub/week-7-hw/assets/javascript/app.js",
 			"settings":
 			{
-				"buffer_size": 1451,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day3/cobweb-starter.html",
-			"settings":
-			{
-				"buffer_size": 1819,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day3/jQueryCalculator_Starter.html",
-			"settings":
-			{
-				"buffer_size": 5755,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day3/scopeQuiz_unsolved.html",
-			"settings":
-			{
-				"buffer_size": 951,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day2/fridge_starter/fridge.html",
-			"settings":
-			{
-				"buffer_size": 3023,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<script>\n/*\n1.create an on click function - to determine what happens when a clicks\n2.store value of the click in a variable (first number variable)\n-and into the console log\n\n3.create an on click function for the the operation \n4. IF (num1 is clicked && operator is clicked)\n	-then allow user to click for num2 to be stored\n	-num2 is stored\n	*num 1 stored, and num 2 stored\n5. determine which operator value is clicked (include the console log)\n	\n	if(operator value === plus){\n		if(user clicks \"=\" )\n			-then the operation will work \n				var result = num1 + num2;\n			-the result will display/console.log){\n		}\n	}else if()\n\n*/\n</script>",
-			"file": "/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day3/pseudo-calculator.html",
-			"file_size": 674,
-			"file_write_time": 131210384222955734,
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n	<title>Week 7 - HW</title>\n	<link rel=\"stylesheet\" href=\"assets/css/reset.css\">\n	<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" integrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" crossorigin=\"anonymous\">\n	<link rel=\"stylesheet\" href=\"assets/css/style.css\">\n</head>\n<body>\n<div class=\"jumbotron\">\n	<div class=\"container\">\n	  <h1>Trains, Trains, and More Trains</h1>\n	</div>\n</div>\n<div class=\"container\">\n	<div class=\"panel\">\n	  <!-- Default panel contents -->\n	  <div class=\"panel-heading\">Current Train Schedule</div>\n	  <!-- Table -->\n	  <table class=\"table\">\n	    <tr>\n	    	<th class=\"col-sm-2\">Train Name</th>\n	    	<th class=\"col-sm-2\">Destination</th>\n	    	<th class=\"col-sm-2\">Frequency (min)</th>\n	    	<th class=\"col-sm-2\">Next Arrival</th>\n	    	<th class=\"col-sm-2\">Minutes Away</th>\n	    </tr>\n	    <tr>\n	    	<td class=\"col-sm-2\"></td>\n	    	<td class=\"col-sm-2\"></td>\n	    	<td class=\"col-sm-2\"></td>\n	    	<td class=\"col-sm-2\"></td>\n	    	<td class=\"col-sm-2\"></td>\n	    </tr>\n	    <tr>\n	    	<td class=\"col-sm-2\"></td>\n	    	<td class=\"col-sm-2\"></td>\n	    	<td class=\"col-sm-2\"></td>\n	    	<td class=\"col-sm-2\"></td>\n	    	<td class=\"col-sm-2\"></td>\n	    </tr>\n	    <tr>\n	    	<td class=\"col-sm-2\"></td>\n	    	<td class=\"col-sm-2\"></td>\n	    	<td class=\"col-sm-2\"></td>\n	    	<td class=\"col-sm-2\"></td>\n	    	<td class=\"col-sm-2\"></td>\n	    </tr>\n	  </table>\n	</div>\n	\n	<div class=\"panel\">\n		<div class=\"panel-heading\">Add Train</div>\n		<div class=\"panel-body\">\n			<form role=\"form\">\n				<div class=\"form-group\">\n					<label for=\"text\">Train Name</label>\n					<input type=\"text\" class=\"form-control\" id=\"train-input\">\n				</div>\n				<div class=\"form-group\">\n					<label for=\"text\">Destination</label>\n					<input type=\"text\" class=\"form-control\" id=\"destination-input\">\n				</div>\n				<div class=\"form-group\">\n					<label for=\"text\">First Train Time (HH:mm - miliary time)</label>\n					<input type=\"time\" class=\"form-control\" id=\"train-input\">\n				</div>\n				<div class=\"form-group\">\n					<label for=\"text\">Frequency (min)</label>\n					<input type=\"number\" class=\"form-control\" id=\"train-input\">\n				</div>\n				<button type=\"submit\" class=\"btn\" id=\"addUser\">Submit</button>\n			</form>\n		</div>\n	</div>\n\n</div>\n<script src=\"https://code.jquery.com/jquery-2.2.3.js\" integrity=\"sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=\" crossorigin=\"anonymous\"></script>\n<script src=\"assets/javascript/app.js\"></script>\n</body>\n</html>",
+			"file": "/C/Users/Miss Eva/Desktop/GitHub/week-7-hw/index.html",
+			"file_size": 2642,
+			"file_write_time": 131227622879706009,
 			"settings":
 			{
-				"buffer_size": 636,
+				"buffer_size": 2562,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Miss Eva/Desktop/GitHub/week-7-hw/assets/css/style.css",
+			"settings":
+			{
+				"buffer_size": 212,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day2/5-recentuser.html",
+			"settings":
+			{
+				"buffer_size": 3928,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -280,32 +488,119 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Miss Eva/Desktop/GitHub/week-3-game/assets",
-		"/C/Users/Miss Eva/Desktop/GitHub/week-3-game/assets/css",
-		"/C/Users/Miss Eva/Desktop/GitHub/week-3-game/assets/javascript",
 		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp",
-		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4",
-		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day2",
-		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day2/1-CaptainPlanetGame",
-		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day2/fridge_starter",
-		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day3",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day1/7.1",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day2",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day2/CodersBay-Students",
 		"/C/Users/Miss Eva/Desktop/GitHub",
-		"/C/Users/Miss Eva/Desktop/GitHub/week-4-game",
+		"/C/Users/Miss Eva/Desktop/GitHub/GifTastic/assets",
+		"/C/Users/Miss Eva/Desktop/GitHub/GifTastic/assets/css",
+		"/C/Users/Miss Eva/Desktop/GitHub/GifTastic/assets/javascript",
+		"/C/Users/Miss Eva/Desktop/GitHub/TriviaGame/assets",
+		"/C/Users/Miss Eva/Desktop/GitHub/TriviaGame/assets/javascript",
+		"/C/Users/Miss Eva/Desktop/GitHub/week-3-game/assets",
+		"/C/Users/Miss Eva/Desktop/GitHub/week-3-game/assets/javascript",
 		"/C/Users/Miss Eva/Desktop/GitHub/week-4-game/assets",
-		"/C/Users/Miss Eva/Desktop/marsbdaygift",
-		"/C/Users/Miss Eva/Desktop/marsbdaygift/assets/css",
-		"/C/Users/Miss Eva/Desktop/marsbdaygift/assets/images"
+		"/C/Users/Miss Eva/Desktop/GitHub/week-4-game/assets/javascript",
+		"/C/Users/Miss Eva/Desktop/GitHub/week-7-hw",
+		"/C/Users/Miss Eva/Desktop/GitHub/week-7-hw/assets",
+		"/C/Users/Miss Eva/Desktop/GitHub/week-7-hw/assets/css",
+		"/C/Users/Miss Eva/Desktop/GitHub/week-7-hw/assets/javascript"
 	],
 	"file_history":
 	[
+		"/C/Users/Miss Eva/Desktop/GitHub/TriviaGame/assets/javascript/app.js",
+		"/C/Users/Miss Eva/Desktop/GitHub/TriviaGame/index.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day2/5-recentuser.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day2/CodersBay-Students/logic.js",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day2/countdownbutton/logic.js",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day2/01-clickbutton/1-instructor_do-clickbutton-fireconsole.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day2/countdownbutton/3-student_do-downbutton.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day2/CodersBay-Students/6-codersbay.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day2/SOLVED/3-student_do-downbutton.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day2/07-intropresence/7-countdown-presence.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day2/SOLVED/logic.js",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day2/2-instructor_do-clickbutton_nocomments.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day2/07-intropresence/logic.js",
+		"/C/Users/Miss Eva/Desktop/GitHub/week-4-game/assets/javascript/game.js",
+		"/C/Users/Miss Eva/Desktop/GitHub/GifTastic/assets/javascript/app.js",
+		"/C/Users/Miss Eva/Desktop/GitHub/redoHangman/assets/javascript/game.js",
+		"/C/Users/Miss Eva/Desktop/GitHub/redoHangman/index.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/week-3-game/assets/javascript/game.js",
+		"/C/Users/Miss Eva/Desktop/GitHub/redoHangman/assets/css/style.css",
+		"/C/Users/Miss Eva/Desktop/GitHub/redoHangman/assets/css/reset.css",
+		"/C/Users/Miss Eva/Desktop/GitHub/week-7-hw/index.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/week-7-hw/assets/css/style.css",
+		"/C/Users/Miss Eva/Desktop/GitHub/week-7-hw/assets/css/reset.css",
+		"/C/Users/Miss Eva/Desktop/GitHub/week-7-hw/composer.json",
+		"/C/Users/Miss Eva/Desktop/GitHub/week-7-hw/index.php",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day1/7.1/Activities/03-localstorage-demo/3-instructor-do-localstorage.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day1/1-student-do-todolist-solution.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day1/7.1/Activities/01-todolist-nopersistence/1-student-do-todolist.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day1/8-student-do-todolist-localstorage-solution.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day1/2-student-do-signin_NoPersistence-solution.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day1/7.1/Activities/02-signin-nopersistence/2-student-do-signin_NoPersistence.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day1/7.1/Activities/06-cookies-demo/6-instructor-do-cookiesintro.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week6/day3/6.3/Activities/01-CatButton/01-CatButton_Students.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/GifTastic/index.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/GifTastic/assets/css/style.css",
+		"/C/Users/Miss Eva/Desktop/GitHub/TriviaGame/assets/css/style.css",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week6/day3/6.3/Activities/04-PausingGifs/4-PausingGifs-students.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week6/day3/6.3/Activities/03-DynamicElements/3-DynamicElements-Students.html",
+		"/C/Users/Miss Eva/Downloads/01-CatButton_Students.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week6/day3/6.3/Activities/02-ButtonTriggeredAJAX/2-ButtonTriggeredAJAX-Students.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week6/nyApp.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/TriviaGame/index.php",
+		"/C/Users/Miss Eva/Desktop/GitHub/GifTastic/index.php",
+		"/C/Users/Miss Eva/Desktop/GitHub/GifTastic/composer.json",
+		"/C/Users/Miss Eva/Desktop/GitHub/TriviaGame/assets/css/reset.css",
+		"/C/Users/Miss Eva/Desktop/GitHub/GifTastic/assets/css/reset.css",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week6/day2/Movie.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week6/day2/WorkingMovieApp_Harder.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week6/day2/moviedisplaything.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week6/day2/movieAlertthing.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week6/day2/MovieButtonLayout_Easier.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week6/day2/Bujumbura_Harder.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/TriviaGame/composer.json",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week5/day1/slideshow_skeleton/slideshow.js",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week5/day1/interval.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/week-3-game/assets/css/style.css",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week6/day1/api1.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week6/day1/3-Ajax_to_HTML.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week6/day1/exercise1.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week5/day3/fizzbuzz.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week5/day3/missingCard.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week5/day3/primeNum.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week5/day3/sort.html",
+		"/C/Users/Miss Eva/Desktop/homework/eva-lieu/assets/javascript/game.js",
+		"/C/Users/Miss Eva/Desktop/homework/eva-lieu/index.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week5/day1/coin_flip.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week5/day1/practice/coin-flip.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week5/day1/slideshow_skeleton/slideshow.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/week-4-game/assets/javascript/pseudocode.js",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week5/day1/slideshow_skeleton/loading.gif",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week5/day1/stopwatch_skeleton/stopwatch.js",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week5/day1/stopwatch_skeleton/stopwatch.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week5/day1/stopwatch_skeleton/style.css",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week5/day1/simple_timer.html",
 		"/C/Users/Miss Eva/Desktop/GitHub/week-4-game/index.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/week-4-game/assets/css/style.css",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week5/day1/this.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week5/day1/coinflip.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day3/jQueryCalculator_Starter.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day1/SandwichClick_Unsolved.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day2/fridge_starter/fridge.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day3/scopeQuiz_unsolved.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day3/cobweb-starter.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day3/this-unsolved.html",
+		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day3/pseudo-calculator.html",
 		"/C/Users/Miss Eva/Desktop/GitHub/week-3-game/index.html",
 		"/C/Users/Miss Eva/Desktop/GitHub/week-4-game/assets/css/reset.css",
 		"/C/Users/Miss Eva/Desktop/marsbdaygift/assets/css/reset.css",
 		"/C/Users/Miss Eva/Desktop/marsbdaygift/assets/css/style.css",
 		"/C/Users/Miss Eva/Desktop/marsbdaygift/index.php",
 		"/C/Users/Miss Eva/Desktop/marsbdaygift/index.html",
-		"/C/Users/Miss Eva/Desktop/GitHub/week-3-game/assets/css/style.css",
 		"/C/Users/Miss Eva/Desktop/GitHub/week-4-game/composer.json",
 		"/C/Users/Miss Eva/Desktop/GitHub/week-4-game/index.php",
 		"/C/Users/Miss Eva/Desktop/GitHub/Basic-Portfolio/composer.json",
@@ -313,15 +608,12 @@
 		"/C/Users/Miss Eva/marsbday/index.html",
 		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day2/1-CaptainPlanetGame/CaptainPlanetGame.html",
 		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day2/Unsolved/LexicalScope1.html",
-		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day2/fridge_starter/fridge.html",
 		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day2/pseudocode.html",
-		"/C/Users/Miss Eva/Desktop/GitHub/week-3-game/assets/javascript/game.js",
 		"/C/Users/Miss Eva/Desktop/GitHub/week-3-game/assets/javascript/test.html",
 		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week3/day3/LoopTV_Unsolved.html",
 		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day1/LotteryGenerator_Unsolved.html",
 		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day1/DrinkList_Unsolved.html",
 		"/C/Users/Miss Eva/Desktop/GitHub/week-3-game/assets/javascript/test.js",
-		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day1/SandwichClick_Unsolved.html",
 		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day1/jQueryDrinkList_Unsolved.html",
 		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day1/TriggerRandom_UNSOLVED.html",
 		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day1/onclick.html",
@@ -345,95 +637,15 @@
 		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week3/day2/3-ArraySetting/ArraySetting_UNSOLVED.html",
 		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week3/day2/hardloop.html",
 		"/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week3/day2/MyFirstLoop.html",
-		"/C/Users/Miss Eva/Desktop/GitHub/Responsive-Portfolio/portfolio.html",
-		"/C/Users/Miss Eva/Desktop/GitHub/Bootstrap-Portfolio/composer.json",
-		"/C/Users/Miss Eva/Desktop/GitHub/Bootstrap-Portfolio/index.php",
-		"/C/Users/Miss Eva/Desktop/GitHub/Basic-Portfolio/assets/css/style.css",
-		"/C/Users/Miss Eva/Desktop/GitHub/Responsive-Portfolio/index.html",
-		"/C/Users/Miss Eva/Desktop/GitHub/Responsive-Portfolio/contact.html",
-		"/C/Users/Miss Eva/Desktop/ucla-bootcamp/week2/day3/style.css",
-		"/C/Users/Miss Eva/Desktop/GitHub/Bootstrap-Portfolio/README.md",
-		"/C/Users/Miss Eva/Desktop/GitHub/Bootstrap-Portfolio/darkly-bootstrap.css",
-		"/C/Users/Miss Eva/Desktop/GitHub/Bootstrap-Portfolio/portfolio.html",
-		"/C/Users/Miss Eva/Desktop/GitHub/Bootstrap-Portfolio/contact.html",
-		"/C/Users/Miss Eva/Desktop/GitHub/Responsive-Portfolio/assets/css/reset.css",
-		"/C/Users/Miss Eva/Desktop/ucla-bootcamp/week2/day3/grid-practice.html",
-		"/C/Users/Miss Eva/Desktop/ucla-bootcamp/week2/day3/mediaq.html",
-		"/C/Users/Miss Eva/Desktop/GitHub/Bootstrap-Portfolio/hwdonewrong/index.html",
-		"/C/Users/Miss Eva/Desktop/GitHub/Responsive-Portfolio/index.sublime-workspace",
-		"/C/Users/Miss Eva/Desktop/GitHub/Bootstrap-Portfolio/hwdonewrong/index.php",
-		"/C/Users/Miss Eva/Desktop/ucla-bootcamp/week3/day1/Unsolved/PizzaVariables.html",
-		"/C/Users/Miss Eva/Desktop/ucla-bootcamp/week3/day1/Unsolved/PromptSushi.html",
-		"/C/Users/Miss Eva/Desktop/GitHub/Basic-Portfolio/index.html",
-		"/C/Users/Miss Eva/Desktop/ucla-bootcamp/week3/day1/Unsolved/4-PizzaVariables.html",
-		"/C/Users/Miss Eva/Desktop/ucla-bootcamp/week2/day3/bs-practice.html",
-		"/C/Users/Miss Eva/Desktop/GitHub/Bootstrap-Portfolio/index.html",
-		"/C/Users/Miss Eva/Desktop/ucla-bootcamp/01-CodeDissection/JSDissect.html",
-		"/C/Users/Miss Eva/Desktop/ucla-bootcamp/week3/day1/javascriptExercise.html",
-		"/C/Users/Miss Eva/Desktop/GitHub/Bootstrap-Portfolio/startbootstrap-agency-gh-pages/startbootstrap-agency-gh-pages/README.md",
-		"/C/Users/Miss Eva/Desktop/GitHub/Responsive-Portfolio/index.php",
-		"/C/Users/Miss Eva/Desktop/ucla-bootcamp/week2/day3/bootstrap.html",
-		"/C/Users/Miss Eva/Desktop/GitHub/Basic-Portfolio/portfolio.html",
-		"/C/Users/Miss Eva/Desktop/GitHub/Basic-Portfolio/contact.html",
-		"/C/Users/Miss Eva/Downloads/recommended-homework-solution/recommended-homework-solution/portfolio.html",
-		"/C/Users/Miss Eva/Downloads/recommended-homework-solution/recommended-homework-solution/contact.html",
-		"/C/Users/Miss Eva/Downloads/recommended-homework-solution/recommended-homework-solution/assets/css/style.css",
-		"/C/Users/Miss Eva/Downloads/recommended-homework-solution/recommended-homework-solution/index.html",
-		"/C/Users/Miss Eva/Desktop/Class Work/Typography/typo.html",
-		"/C/Users/Miss Eva/Desktop/Class Work/Typography/style.css",
-		"/C/Users/Miss Eva/Desktop/Class Work/pseudostyle.css",
-		"/C/Users/Miss Eva/Desktop/Class Work/pseudoclass.html",
-		"/C/Users/Miss Eva/Desktop/GitHub/Basic-Portfolio/assets/css/reset.css",
-		"/C/Users/Miss Eva/Desktop/GitHub/Basic-Portfolio/index.php",
-		"/C/Users/Miss Eva/Desktop/Class Work/6-CSS_Positioned_Activity/positioning.css",
-		"/C/Users/Miss Eva/Desktop/Class Work/Unsolved/floats.css",
-		"/C/Users/Miss Eva/Desktop/Class Work/Unsolved/floats.html",
-		"/C/Users/Miss Eva/Desktop/Class Work/positioning.css",
-		"/C/Users/Miss Eva/Documents/Unsolved/floats.css",
-		"/C/Users/Miss Eva/Desktop/GitHub/HerokuforEva/index.php",
-		"/C/Users/Miss Eva/Desktop/GitHub/HerokuforEva/composer.json",
-		"/C/Users/Miss Eva/Documents/GitHub/Basic-Portfolio/assets/css/style.css",
-		"/C/Users/Miss Eva/Google Drive/AboutMe.html",
-		"/C/Users/Miss Eva/Documents/positioning.html",
-		"/C/Users/Miss Eva/Documents/positioning.css",
-		"/C/Users/Miss Eva/Documents/6-CSS_Positioned_Activity/positioning.css",
-		"/C/Users/Miss Eva/Documents/6-CSS_Positioned_Activity/positioning.html",
-		"/C/Users/Miss Eva/Documents/GitHub/Basic-Portfolio/index.html",
-		"/C/Users/Miss Eva/Documents/Unsolved/floats.html",
-		"/C/Users/Miss Eva/Documents/RelativePaths_UNSOLVED-Student/RelativePaths_4/style.css",
-		"/C/Users/Miss Eva/Documents/RelativePaths_UNSOLVED-Student/RelativePaths_4/HTML/HTML_BIO.html",
-		"/C/Users/Miss Eva/Documents/RelativePaths_UNSOLVED-Student/RelativePaths_WorkingExample/assets/style.css",
-		"/C/Users/Miss Eva/Documents/RelativePaths_UNSOLVED-Student/RelativePaths_3/assets/style/style.css",
-		"/C/Users/Miss Eva/Documents/RelativePaths_UNSOLVED-Student/RelativePaths_3/HTML_BIO.html",
-		"/C/Users/Miss Eva/Documents/RelativePaths_UNSOLVED-Student/RelativePaths_2/assets/style.css",
-		"/C/Users/Miss Eva/Documents/RelativePaths_UNSOLVED-Student/RelativePaths_2/HTML_BIO.html",
-		"/C/Users/Miss Eva/Documents/RelativePaths_UNSOLVED-Student/RelativePaths_1/style.css",
-		"/C/Users/Miss Eva/Documents/RelativePaths_UNSOLVED-Student/RelativePaths_1/HTML_BIO.html",
-		"/C/Users/Miss Eva/Documents/GitHub/Basic-Portfolio/portfolio.html",
-		"/C/Users/Miss Eva/Documents/GitHub/Basic-Portfolio/contact.html",
-		"/C/Users/Miss Eva/Documents/GitHub/Basic-Portfolio/assets/css/reset.css",
-		"/C/Users/Miss Eva/Documents/GitHub/JustforPractice/css/style.css",
-		"/C/Users/Miss Eva/Documents/GitHub/JustforPractice/student-bio.html",
-		"/C/Users/Miss Eva/Documents/GitHub/JustforPractice/style.css",
-		"/C/Users/Miss Eva/Documents/GitHub/JustforPractice/student-bio.html.html",
-		"/C/Users/Miss Eva/Google Drive/PREWORK_ELL/Module-9/style.css",
-		"/C/Users/Miss Eva/Documents/GitHub/JustforPractice/index.html",
-		"/C/Users/Miss Eva/Desktop/Class Work/newfile.html",
-		"/C/Users/Miss Eva/README.md",
-		"/C/Users/Miss Eva/Documents/GitHub/sept_22-learnGit/README.md",
-		"/C/Users/Miss Eva/Desktop/Home Work/HW 1.html",
-		"/C/Users/Miss Eva/AppData/Roaming/Sublime Text 3/Packages/User/Plain text.sublime-settings",
-		"/C/Users/Miss Eva/Desktop/newfile.html",
-		"/C/Users/Miss Eva/Desktop/Assignment #8/index.html",
-		"/C/Users/Miss Eva/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+		"/C/Users/Miss Eva/Desktop/GitHub/Responsive-Portfolio/portfolio.html"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 96.0,
 		"where_history":
 		[
 		]
@@ -443,6 +655,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"localStorage",
+			";\n",
+			"response",
+			".on",
+			">\n",
+			"relative",
 			"letterGuess",
 			");\n",
 			"0",
@@ -478,187 +696,121 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day3/this-unsolved.html",
+					"file": "/C/Users/Miss Eva/Desktop/GitHub/week-7-hw/assets/javascript/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1451,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								543,
-								543
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 520.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day3/cobweb-starter.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1819,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1185,
-								1185
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1387.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day3/jQueryCalculator_Starter.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5755,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4325,
-								4325
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3367.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day3/scopeQuiz_unsolved.html",
+					"buffer": 1,
+					"file": "/C/Users/Miss Eva/Desktop/GitHub/week-7-hw/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 951,
+						"buffer_size": 2562,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								461,
-								461
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 460.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day2/fridge_starter/fridge.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3023,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2900,
-								2988
+								2061,
+								2061
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1760.0,
+						"translation.y": 1261.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 5,
-					"file": "/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week4/day3/pseudo-calculator.html",
+					"buffer": 2,
+					"file": "/C/Users/Miss Eva/Desktop/GitHub/week-7-hw/assets/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 636,
+						"buffer_size": 212,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								170,
-								170
+								122,
+								122
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Miss Eva/Desktop/GitHub/ucla-bootcamp/week7/day2/5-recentuser.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1421,
+								1495
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 912.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -670,7 +822,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 36.0
 	},
 	"layout":
 	{
@@ -681,18 +833,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.516546914836,
 			1.0
 		],
 		"rows":
@@ -748,7 +893,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 249.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

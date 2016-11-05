@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JavaScript Object Review</title>
+</head>
+<body>
+
+<script src= "http://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script>
+/*	function constructQuery(title){
+		
+		var queryEndpoint= "http://www.omdbapi.com/?";
+		return queryEndpoint + "t=" + title;
+	}
+*/
+
+	function constructQuery(title){
+		var queryEndpoint = "http://www.omdbapi.com/?";
+		return queryEndpoint + "t=" + title;
+	}
+
+	var title="frozen";
+
+	//movieEndpoint is a url (www.omdbapi.com/?t=frozen)
+	var movieEndpoint = constructQuery(title);	
+	console.log(movieEndpoint);
+/*
+	//Ajax expects an object
+	$.ajax({
+		url: movieEndpoint, 
+		method: "GET"}) //or "POST"
+	.done(function(response){ //returned values when done
+		console.log(response);
+		console.log(response.Actors.split(",").pop());
+		console.log(response.Rated);
+		console.log(response.Year);		
+
+		console.log(response.Runtime.split(" ").pop());
+		console.log(response.Runtime.split(" ")[0]);
+	})
+*/
+
+	$.ajax({
+		url: movieEndpoint,
+		method: "GET"})
+	.done(function(response){
+		console.log(response.Runtime.split(" ").shift());
+	});
+
+</script>
+	
+</body>
+</html>

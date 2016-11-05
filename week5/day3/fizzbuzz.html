@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+
+<script>
+//Variables
+var number = 1;
+var fiveRemainder;
+var threeRemainder;
+
+/*-----Code Start-----*/
+while(number <=100){
+
+	var fiveRemainder = five(number);
+	var threeRemainder = three(number);
+
+	if(threeRemainder === 0 && fiveRemainder === 0){
+		console.log("Fizz Buzz");
+	}else if(threeRemainder === 0){
+		console.log("Fizz");
+	}else if(fiveRemainder === 0){
+		console.log("Buzz");
+	}else{
+		console.log(number);
+	}
+	number++;
+}
+/* -----Functions-----*/
+function three(num){
+	var result = num % 3;
+	return result;
+}
+function five(num){
+	var result = num % 5;
+	return result;
+}
+
+
+</script>
+
+</body>
+</html>
